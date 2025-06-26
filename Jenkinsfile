@@ -32,7 +32,7 @@ pipeline {
         // stage('Build Project') {
         //     steps {
         //         dir(PROJECT_DIR) {
-        //             sh 'npm run build'
+        //              sh 'npm run build'
         //         }
         //     }
         // }
