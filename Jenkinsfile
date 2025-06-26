@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        PROJECT_DIR = '/var/www/node/frontend'
-        PM2_ID = '0'
+        PROJECT_DIR = '/var/www/node/backend'
+        PM2_ID = '1'
     }
 
     stages {
