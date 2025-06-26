@@ -29,13 +29,13 @@ pipeline {
             }
         }
 
-        stage('Build Project') {
-            steps {
-                dir(PROJECT_DIR) {
-                    sh 'npm run build'
-                }
-            }
-        }
+        // stage('Build Project') {
+        //     steps {
+        //         dir(PROJECT_DIR) {
+        //             sh 'npm run build'
+        //         }
+        //     }
+        // }
 
         stage('Deploy') {
             steps {
